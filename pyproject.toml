@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "mcp-audit-trail"
-version = "0.1.0"
+version = "0.1.1"
 description = "Lightweight observability for MCP agent interactions — capture every tool call, generate visual audit trails."
 readme = "README.md"
 license = "MIT"

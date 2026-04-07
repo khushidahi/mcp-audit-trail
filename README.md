@@ -9,7 +9,7 @@ This library sits between any MCP client and server as a transparent proxy, logs
 ![license](https://img.shields.io/badge/license-MIT-green)
 
 <p align="center">
-  <img src="docs/images/full-report.png" alt="MCP Audit Trail report" width="700">
+  <img src="https://raw.githubusercontent.com/khushidahi/mcp-audit-trail/main/docs/images/full-report.png" alt="MCP Audit Trail report" width="700">
 </p>
 
 ---
@@ -57,9 +57,9 @@ mcp-audit-report --input audit.json --output report.html
 
 Open `report.html` in a browser:
 
-<img src="docs/images/summary.png" alt="Session summary" width="700">
+<img src="https://raw.githubusercontent.com/khushidahi/mcp-audit-trail/main/docs/images/summary.png" alt="Session summary" width="700">
 
-<img src="docs/images/tools-and-data.png" alt="Tool usage and data access map" width="700">
+<img src="https://raw.githubusercontent.com/khushidahi/mcp-audit-trail/main/docs/images/tools-and-data.png" alt="Tool usage and data access map" width="700">
 
 You get a session summary, tool classification (read/write/sensitive), a data access map, and an interactive timeline — click any event to expand the full arguments and results.
 
@@ -141,7 +141,7 @@ logger = AuditLogger(
 
 Flagged events get tagged in the JSON log and highlighted in the HTML report. Sensitive tools show up in red, write actions in orange. Makes it easy to scan a long session for the stuff that matters.
 
-<img src="docs/images/timeline.png" alt="Event timeline with expanded details" width="700">
+<img src="https://raw.githubusercontent.com/khushidahi/mcp-audit-trail/main/docs/images/timeline.png" alt="Event timeline with expanded details" width="700">
 
 ## CLI reference
 
